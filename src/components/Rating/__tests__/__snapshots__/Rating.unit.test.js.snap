@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating renders with like count and dislike count 1`] = `
+<div
+  className="rating"
+>
+  <div
+    className="thumbs-up"
+  >
+    <Icon
+      as="i"
+      name="thumbs outline up"
+    />
+    <span>
+      1000
+    </span>
+  </div>
+  <div
+    className="thumbs-down"
+  >
+    <Icon
+      as="i"
+      name="thumbs outline down"
+    />
+    <span>
+      50
+    </span>
+  </div>
+  <Progress
+    className="progress"
+    percent={95.23809523809523}
+    size="tiny"
+  />
+</div>
+`;
+
+exports[`Rating renders without props 1`] = `
+<div
+  className="rating"
+>
+  <div
+    className="thumbs-up"
+  >
+    <Icon
+      as="i"
+      name="thumbs outline up"
+    />
+    <span />
+  </div>
+  <div
+    className="thumbs-down"
+  >
+    <Icon
+      as="i"
+      name="thumbs outline down"
+    />
+    <span />
+  </div>
+</div>
+`;
